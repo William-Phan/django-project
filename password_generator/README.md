@@ -1,0 +1,1 @@
+Ref: Udemy course of Mr.Nick Walter: [django-3-make-websites-with-python-tutorial-beginner-learn-bootstrap](udemy.com/course/django-3-make-websites-with-python-tutorial-beginner-learn-bootstrap/learn/lecture/17686354#overview)
