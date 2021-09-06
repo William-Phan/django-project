@@ -1,15 +1,21 @@
 <h1>Password Generator</h1>
 
 <form action="password">
-    <select>
+    <select name="length">
         <option>6</option>
         <option>7</option>
         <option>8</option>
         <option>9</option>
         <option>10</option>
         <option>11</option>
-        <option>12</option>
+        <option selected="selected">12</option>
     </select>
-
+    <br>
+    <input type="checkbox" name="uppercase">Have Uppercase
+    <br>
+    <input type="checkbox" name="digit">Have Digit
+    <br>
+    <input type="checkbox" name="character">Have Special Character
+    <br>
     <input type="submit", value="Generate password">
 </form>
