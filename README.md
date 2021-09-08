@@ -1,11 +1,26 @@
-# django-project
+# Django Projects
 
 ---
 
+## Document
+https://docs.djangoproject.com/
+
 ## Installation Guide
 
+Install python3
 
-    python3
-Virtual environment
+Install virtual environment
 
-    django in venv
+```buildoutcfg
+pip install -m venv venv
+```
+
+Activate the environment
+```buildoutcfg
+source venv/bin/activate
+```
+
+Install Django
+```buildoutcfg
+pip install django
+```
