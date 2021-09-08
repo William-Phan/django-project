@@ -1,6 +1,14 @@
 
 {% for project in projects %}
 
+{% load static %}
+
+<a href="{% static 'portfolio/VietPhan_BE_Python.pdf' %}">My CV</a>
+
+<br>
+
+<img src="{% static 'portfolio/wp_me.jpeg' %}">
+
 <h1>{{ project.title }}</h1>
 <p>{{ project.description }}</p>
 
