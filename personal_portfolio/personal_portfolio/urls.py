@@ -20,9 +20,11 @@ from django.urls import path, include
 
 from portfolio import views
 
+# app_name = 'portfolio'
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home),
+    path('', views.home, name='home'),
     path('blog/', include('blog.urls'))
 ]
 
